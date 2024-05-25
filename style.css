@@ -1,0 +1,22 @@
+body{
+   background-color: rgb(233, 232, 232); 
+   height: 100vh;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.alert{
+    background-color: rgb(143, 255, 143);
+}
